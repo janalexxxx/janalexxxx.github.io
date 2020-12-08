@@ -1,0 +1,763 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+body {
+	background-color: #fafafa;
+}
+
+
+
+
+/************************/
+/* Navigation */
+/************************/
+.navigation {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	
+	width: 100%;
+	height: 50px;
+	padding-right: 5%;
+	padding-left: 5%;
+	
+	background-color: #fafafa;
+	border-bottom: solid 1px #eee;
+}
+
+.navigation ul {
+	float: right;
+}
+
+.navigation li {
+	display: inline-block;
+	
+	padding-top: 14px;
+	padding-left: 40px ;
+}
+
+.logo {
+	position: absolute;
+	top: 3px;
+	
+	width: 40px;
+	height: 40px;
+}
+
+
+/************************/
+
+/*breakpoint for iPhone*/
+@media (max-width: 414px) {
+	.navigation {
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+}
+
+
+
+
+/************************/
+/* Header */
+/************************/
+.header {
+	position: relative;
+	
+	width: 100%;
+	height: 100vh;
+	
+	background-color: #7341DF;
+}
+
+.header-content {
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	
+	width: 60%;
+	height: 220px;
+	margin: auto;
+	
+}
+
+.header-content h4 {
+	margin-top: 60px;
+}
+
+.heart-header {
+	position: relative;
+	top: 5px;
+	
+	width: 22px;
+	height:  22px;
+}
+
+.arrow-down {
+	position: absolute;
+	top: 95%;
+	left: 0;
+	right: 0;
+	
+	height: 20px;
+	width: 200px;
+	margin: auto;
+}
+
+
+/************************/
+
+/* Breakpoint for iPad */
+@media (max-width: 1024px) {
+	.header-content {
+		width: 80%;
+		height: 330px;
+	}
+}
+
+/* Breakpoint for iPhone 6 Plus */
+@media (max-width: 414px) {
+	.header-content {
+		width: 90%;
+		height: 330px;
+	}
+}
+
+/* Breakpoint for iPhone 5 */
+@media (max-width: 320px) {
+	.header-content {
+		height: 320px;
+	}
+}
+
+
+
+
+/************************/
+/* Work */
+/************************/
+.work {
+	overflow: auto;
+	
+	width: 100%;
+	padding-top: 120px;
+}
+
+.container-projects {
+	width:  90%;
+	margin: auto;
+}
+
+.project-preview {
+	float: left;
+	overflow: hidden;
+	
+	width: 25%;
+	height: 25vw;
+	margin: 4.16666%;
+	transform: scale(1);
+	
+	background-color: #fff;
+	border-radius: 1.5%;
+	box-shadow: 0px 8px 20px rgba(0,0,0,.09);
+	
+	/*hover animation*/
+	transition-property: transform, box-shadow;
+	-o-transition-property: transform, box-shadow;
+	-ms-transition-property: transform, box-shadow;
+	-moz-transition-property: transform, box-shadow;
+	-webkit-transition-property: transform, box-shadow;
+	
+	transition-duration: .3s;
+	-o-transition-duration: .3s;
+	-ms-transition-duration: .3s;
+	-moz-transition-duration: .3s;
+	-webkit-transition-duration: .3s;
+	
+	transition-timing-function: ease-in-out;
+	-o-transition-timing-function: ease-in-out;
+	-ms-transition-timing-function: ease-in-out;
+	-moz-transition-timing-function: ease-in-out;
+	-webkit-transition-timing-function: ease-in-out;
+	  
+}
+
+.work img {	
+	max-height: 100%;
+}
+
+/* Info Overlay */
+.project-preview-info {
+	display: none;
+	position: absolute;
+	
+	height: 100%;
+	width: 100%;
+	
+	background-color: rgba(240, 240, 240, .8);
+}
+
+.project-preview-info-content {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+
+.project-preview-title h1 {
+	margin-bottom: 20px;
+}
+
+.category-label {
+	display: inline-block;
+	padding:  6px 10px;
+	margin: 10px 10px 10px 10px;
+}
+
+/* Hover animation */
+/*.project-preview:hover > div {
+	display: block;
+}
+
+.project-preview:hover {
+	transform: scale(1.1);
+	box-shadow: 0px 10px 30px rgba(0,0,0,.04);
+}*/
+
+
+/************************/
+
+/* Breakpoint for iPad */
+@media (max-width: 1024px) {
+	.project-preview {
+		width: 40%;
+		height: 40vw;
+		margin: 5%;
+	}	
+}
+
+/* Breakpoint for iPhone */
+@media (max-width: 414px) {
+	.project-preview {
+		width: 90%;
+		height: 90vw;
+		margin: 5%;
+	}
+}
+
+
+
+
+/************************/
+/* About Me */
+/************************/
+.about-me {
+	width: 60%;
+	margin: auto;
+}
+
+.about-me p {
+	margin-top: 200px;
+	margin-bottom: 200px;
+}
+
+
+/************************/
+
+/*breakpoint iPad*/
+@media (max-width: 1024px) {
+	.about-me {
+		width: 70%;
+	}
+}
+
+/*breakpoint for iPhone*/
+@media (max-width: 414px) {
+	.about-me {
+		width: 80%;
+	}
+}
+
+
+
+
+/************************/
+/* Footer */
+/************************/
+.footer {
+	width: 100%;
+	padding: 20px 40px;
+	
+	background-color: #eee;
+}
+
+
+.footer div {
+	display: inline-block;
+	position: absolute;
+	left: 50%;
+	
+	width: 80%;
+	margin-left: -40%;
+	margin-top: -5px;
+}
+
+.linkedin-logo {
+	display: inline-block;
+	position: relative;
+	float: right;
+	top: -1px;
+	
+	height: 24px;
+}
+
+.imprint {
+	display: inline-block;
+	position: relative;
+	top: -1px;
+}
+
+.heart-footer {
+	position: relative;
+	top: 5px;
+	
+	width: 22px;
+	height:  22px;
+}
+
+
+/************************/
+
+/*breakpoint iPhone 6 Plus*/
+@media (max-width: 414px) {
+	.footer div {
+		left: 19px;
+		
+		width: 220px;
+		margin-left: 0;
+	}
+	
+	.imprint {
+		left: -19px;
+		
+		margin-top: 60px;
+	}
+}
+
+
+
+
+
+
+
+/************************/
+/* Project Detail Page */
+/************************/
+.project-detail {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 3;
+	
+	width: 100%;
+	
+	background-color: #fafafa;
+	border-radius: 10px;
+	
+	overflow: hidden;
+	text-align: center;
+}
+
+.description {
+	width: 100%;
+	padding: 200px 5% 100px 5%	;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.description h1 {
+	margin-bottom: 50px;
+}
+
+.description-text {
+	position: relative;
+	width: 100%;
+	max-width: 600px;
+	
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	
+	border-radius: 5px;
+}
+
+.description-text > p {
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-bottom: 60px;
+}
+
+.link-container {
+	
+	width: 100%;
+	max-width: 600px;
+	padding-left: 5%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	
+	/*border-top: 1px solid #eee;*/
+	background-color: #fafafa;
+	box-shadow: 0px 8px 20px rgba(0,0,0,.09);;
+}
+
+
+.project-detail img {
+	display: block;
+	
+	max-width: 100%;
+	padding: 5%;
+	margin: auto;
+}
+
+.close-btn-details {
+	position: fixed;
+	right: 50px;
+	top: 50px;
+	
+	width: 80px;
+	height: 80px;
+	
+	background-color: #fafafa;
+	border-radius: 50%;
+	box-shadow: 0px 8px 20px rgba(0,0,0,.06);
+}
+
+.icn-close {
+	position: relative;
+	display: block;
+	top: 15px;
+	
+	width: 50px;
+	height: 50px;
+	margin: auto;
+}
+
+#dark-overlay {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	
+	width: 100%;
+	height: 100%;
+	
+	background-color: rgba(0,0,0,.94);
+	opacity: 0;
+}
+
+#project-detail-dashboard,
+#project-detail-renderings,
+#project-detail-coup,
+#project-detail-loadfox,
+#project-detail-sanitaer,
+#project-detail-icons,
+#project-detail-foundd {
+	display: none;
+	top: 150px;
+	opacity: 0;
+	
+	/*Display animation*/
+	transition-property: opacity, top;
+	-o-transition-property: opacity, top;
+	-ms-transition-property: opacity, top;
+	-moz-transition-property: opacity, top;
+	-webkit-transition-property: opacity, top;
+	
+	transition-duration: .5s;
+	-o-transition-duration: .5s;
+	-ms-transition-duration: .5s;
+	-moz-transition-duration: .5s;
+	-webkit-transition-duration: .5s;
+	
+	transition-timing-function: ease-in-out;
+	-o-transition-timing-function: ease-in-out;
+	-ms-transition-timing-function: ease-in-out;
+	-moz-transition-timing-function: ease-in-out;
+	-webkit-transition-timing-function: ease-in-out;
+}
+
+
+/************************/
+
+/*iPad breakpoint*/
+@media (max-width: 1024px) {
+	.close-btn-details{
+		right: 30px;
+		top: 30px;
+		
+		width: 60px;
+		height: 60px;
+	}
+	
+	.icn-close {
+		top: 10px;
+		
+		width: 40px;
+		height: 40px;
+	}
+}
+
+/*iPhone 6 Plus breakpoint*/
+@media (max-width: 414px) {
+	.description {
+		padding-top: 120px;
+	}
+	
+	.description-text > p {
+		padding: 4px;
+	}
+	
+	.close-btn-details {
+		right: 30px;
+		top: 30px;
+		
+		width: 50px;
+		height: 50px;
+	}
+	
+	.icn-close {
+		top: 5px;
+		
+		width: 40px;
+		height: 40px;
+	}
+}
+
+/*iPhone 5 breakpoint*/
+@media (max-width: 320px) {
+	.description {
+		padding-bottom: 60px;
+	}
+	
+	.close-btn-details {
+		right: 20px;
+		top: 20px;
+		
+		width: 40px;
+		height: 40px;
+		
+		box-shadow: 0px 4px 10px rgba(0,0,0,.06);
+	}
+	
+	.icn-close {
+		top: 6px;
+		
+		width: 30px;
+		height: 30px;
+	}
+}
+
+
+
+
+/******************/
+/***Imprint Page****/
+/******************/
+.container-imprint {
+	margin-top: 100px;
+	
+	text-align: center;
+	color: #9C9AA1;
+}
+
+.container-imprint h2 {
+	text-transform: uppercase;
+}
+
+
+
+
+/******************/
+/***Text Styles****/
+/******************/
+body {
+	color: #1E1E1F;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+.bold-title {
+	font-family:  'Noto Sans', sans-serif;
+	font-size: 1em;
+	font-weight: 700;
+	
+	letter-spacing: .05em;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+/* Navigation */
+.navigation li a {
+	color: #1E1E1F;
+	
+	text-decoration: none;
+}
+
+.navigation li a:hover {
+	color: #7341DF;
+}
+
+
+/* Header */
+.header {
+	text-align: center;
+}
+
+.header-content h1 {
+	font-family: 'Noto Serif', serif;
+	font-size: 5em;
+	font-weight: 700;
+	color: #F6F4FD;
+}
+
+.header-content h4 {
+	color: rgba(30,30,31,.3);
+}
+
+.arrow-down {
+	font-family:  'Noto Sans', sans-serif;
+	font-size: .7em;
+	font-weight: 700;
+	color: #F6F4FD;
+	
+	letter-spacing: .15em;
+	text-transform: uppercase;
+}
+
+/* Work */
+.category-label {
+	background-color: #7341DF;
+	font-size: .7em;
+	font-weight: 700;
+	color: #F6F4FD;
+	
+	letter-spacing: .15em;
+	text-transform: uppercase;
+}
+
+.project-preview-title {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+/* About Me */
+.about-me p {
+	font-family: 'Noto Serif', serif;
+	font-size: 1.5em;
+	font-weight: 400;
+	color: #1E1E1F;
+	
+	text-align: center;
+	line-height: 2.2em;
+}
+
+.about-me p a {
+	font-family: 'Noto Sans', sans-serif;
+	font-weight:  700;
+	color: #7341DF;
+	
+	text-decoration: none;
+}
+
+/* Footer */
+.imprint {
+	font-size: .8em;
+	font-weight: 700;
+	color: #9C9AA1;
+	
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: .05em;
+}
+
+/* Detail Page */
+.description h1 {
+	font-size: 3em;
+	font-weight: 700;
+	color: #1E1E1F;
+	
+	text-transform: uppercase;
+}
+
+.description p {
+	line-height: 36px;
+	letter-spacing: .02em;
+	text-align: justify;
+}
+
+.link-container {
+	font-size: .8em;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.project-detail a,
+.project-detail .link-container {
+	color: #9C9AA1;
+	text-decoration: none;
+}
+
+.project-detail a:hover {
+	color: #7341DF;
+}
+
+
+/************************/
+
+/* Breakpoint iPhone 6 Plus */
+@media (max-width: 414px) {
+	/* Header */
+	.header-content h4 {
+		font-size: .9em;
+	}
+	
+	/* About Me */
+	.about-me p {
+		text-align: left;
+	}
+	
+	/* Footer */
+	.footer div {
+		text-align: left;
+	}
+	
+	/* Detail Pages */
+	.description p {
+		text-align: left;
+	}
+}
+
+/* Breakpoint iPhone 5 */
+@media (max-width: 320px) {
+	/* Header */
+	.header-content h1 {
+		font-size: 4em;
+	}
+	
+	.header-content h4 {
+		top: 40px;
+		font-size: 1.1em;
+	}
+	
+	/* Detail Page */
+	.description h1 {
+		font-size: 2em;
+	}
+}
