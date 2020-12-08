@@ -18,12 +18,12 @@ body {
 	top: 0;
 	left: 0;
 	z-index: 1;
-	
+
 	width: 100%;
 	height: 50px;
 	padding-right: 5%;
 	padding-left: 5%;
-	
+
 	background-color: #fafafa;
 	border-bottom: solid 1px #eee;
 }
@@ -34,7 +34,7 @@ body {
 
 .navigation li {
 	display: inline-block;
-	
+
 	padding-top: 14px;
 	padding-left: 40px ;
 }
@@ -42,7 +42,7 @@ body {
 .logo {
 	position: absolute;
 	top: 3px;
-	
+
 	width: 40px;
 	height: 40px;
 }
@@ -66,11 +66,15 @@ body {
 /************************/
 .header {
 	position: relative;
-	
+
 	width: 100%;
 	height: 100vh;
-	
-	background-color: #7341DF;
+
+	/* background-color: #192DAE; */
+	background: #0C0A76;
+background: -webkit-linear-gradient(top left, #0C0A76, #7F1692);
+background: -moz-linear-gradient(top left, #0C0A76, #7F1692);
+background: linear-gradient(to bottom right, #0C0A76, #7F1692);
 }
 
 .header-content {
@@ -80,11 +84,11 @@ body {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	
+
 	width: 60%;
 	height: 220px;
 	margin: auto;
-	
+
 }
 
 .header-content h4 {
@@ -94,7 +98,7 @@ body {
 .heart-header {
 	position: relative;
 	top: 5px;
-	
+
 	width: 22px;
 	height:  22px;
 }
@@ -104,7 +108,7 @@ body {
 	top: 95%;
 	left: 0;
 	right: 0;
-	
+
 	height: 20px;
 	width: 200px;
 	margin: auto;
@@ -144,7 +148,7 @@ body {
 /************************/
 .work {
 	overflow: auto;
-	
+
 	width: 100%;
 	padding-top: 120px;
 }
@@ -157,38 +161,38 @@ body {
 .project-preview {
 	float: left;
 	overflow: hidden;
-	
+
 	width: 25%;
 	height: 25vw;
 	margin: 4.16666%;
 	transform: scale(1);
-	
+
 	background-color: #fff;
 	border-radius: 1.5%;
 	box-shadow: 0px 8px 20px rgba(0,0,0,.09);
-	
+
 	/*hover animation*/
 	transition-property: transform, box-shadow;
 	-o-transition-property: transform, box-shadow;
 	-ms-transition-property: transform, box-shadow;
 	-moz-transition-property: transform, box-shadow;
 	-webkit-transition-property: transform, box-shadow;
-	
+
 	transition-duration: .3s;
 	-o-transition-duration: .3s;
 	-ms-transition-duration: .3s;
 	-moz-transition-duration: .3s;
 	-webkit-transition-duration: .3s;
-	
+
 	transition-timing-function: ease-in-out;
 	-o-transition-timing-function: ease-in-out;
 	-ms-transition-timing-function: ease-in-out;
 	-moz-transition-timing-function: ease-in-out;
 	-webkit-transition-timing-function: ease-in-out;
-	  
+
 }
 
-.work img {	
+.work img {
 	max-height: 100%;
 }
 
@@ -196,10 +200,10 @@ body {
 .project-preview-info {
 	display: none;
 	position: absolute;
-	
+
 	height: 100%;
 	width: 100%;
-	
+
 	background-color: rgba(240, 240, 240, .8);
 }
 
@@ -238,7 +242,7 @@ body {
 		width: 40%;
 		height: 40vw;
 		margin: 5%;
-	}	
+	}
 }
 
 /* Breakpoint for iPhone */
@@ -292,7 +296,7 @@ body {
 .footer {
 	width: 100%;
 	padding: 20px 40px;
-	
+
 	background-color: #eee;
 }
 
@@ -301,7 +305,7 @@ body {
 	display: inline-block;
 	position: absolute;
 	left: 50%;
-	
+
 	width: 80%;
 	margin-left: -40%;
 	margin-top: -5px;
@@ -312,7 +316,7 @@ body {
 	position: relative;
 	float: right;
 	top: -1px;
-	
+
 	height: 24px;
 }
 
@@ -325,7 +329,7 @@ body {
 .heart-footer {
 	position: relative;
 	top: 5px;
-	
+
 	width: 22px;
 	height:  22px;
 }
@@ -337,14 +341,14 @@ body {
 @media (max-width: 414px) {
 	.footer div {
 		left: 19px;
-		
+
 		width: 220px;
 		margin-left: 0;
 	}
-	
+
 	.imprint {
 		left: -19px;
-		
+
 		margin-top: 60px;
 	}
 }
@@ -363,12 +367,12 @@ body {
 	top: 0;
 	left: 0;
 	z-index: 3;
-	
+
 	width: 100%;
-	
+
 	background-color: #fafafa;
 	border-radius: 10px;
-	
+
 	overflow: hidden;
 	text-align: center;
 }
@@ -388,11 +392,11 @@ body {
 	position: relative;
 	width: 100%;
 	max-width: 600px;
-	
+
 	margin-top: 100px;
 	margin-left: auto;
 	margin-right: auto;
-	
+
 	border-radius: 5px;
 }
 
@@ -403,7 +407,7 @@ body {
 }
 
 .link-container {
-	
+
 	width: 100%;
 	max-width: 600px;
 	padding-left: 5%;
@@ -411,7 +415,7 @@ body {
 	padding-bottom: 10px;
 	margin-left: auto;
 	margin-right: auto;
-	
+
 	/*border-top: 1px solid #eee;*/
 	background-color: #fafafa;
 	box-shadow: 0px 8px 20px rgba(0,0,0,.09);;
@@ -420,7 +424,7 @@ body {
 
 .project-detail img {
 	display: block;
-	
+
 	max-width: 100%;
 	padding: 5%;
 	margin: auto;
@@ -430,10 +434,10 @@ body {
 	position: fixed;
 	right: 50px;
 	top: 50px;
-	
+
 	width: 80px;
 	height: 80px;
-	
+
 	background-color: #fafafa;
 	border-radius: 50%;
 	box-shadow: 0px 8px 20px rgba(0,0,0,.06);
@@ -443,7 +447,7 @@ body {
 	position: relative;
 	display: block;
 	top: 15px;
-	
+
 	width: 50px;
 	height: 50px;
 	margin: auto;
@@ -455,10 +459,10 @@ body {
 	top: 0;
 	left: 0;
 	z-index: 2;
-	
+
 	width: 100%;
 	height: 100%;
-	
+
 	background-color: rgba(0,0,0,.94);
 	opacity: 0;
 }
@@ -473,20 +477,20 @@ body {
 	display: none;
 	top: 150px;
 	opacity: 0;
-	
+
 	/*Display animation*/
 	transition-property: opacity, top;
 	-o-transition-property: opacity, top;
 	-ms-transition-property: opacity, top;
 	-moz-transition-property: opacity, top;
 	-webkit-transition-property: opacity, top;
-	
+
 	transition-duration: .5s;
 	-o-transition-duration: .5s;
 	-ms-transition-duration: .5s;
 	-moz-transition-duration: .5s;
 	-webkit-transition-duration: .5s;
-	
+
 	transition-timing-function: ease-in-out;
 	-o-transition-timing-function: ease-in-out;
 	-ms-transition-timing-function: ease-in-out;
@@ -502,14 +506,14 @@ body {
 	.close-btn-details{
 		right: 30px;
 		top: 30px;
-		
+
 		width: 60px;
 		height: 60px;
 	}
-	
+
 	.icn-close {
 		top: 10px;
-		
+
 		width: 40px;
 		height: 40px;
 	}
@@ -520,22 +524,22 @@ body {
 	.description {
 		padding-top: 120px;
 	}
-	
+
 	.description-text > p {
 		padding: 4px;
 	}
-	
+
 	.close-btn-details {
 		right: 30px;
 		top: 30px;
-		
+
 		width: 50px;
 		height: 50px;
 	}
-	
+
 	.icn-close {
 		top: 5px;
-		
+
 		width: 40px;
 		height: 40px;
 	}
@@ -546,20 +550,20 @@ body {
 	.description {
 		padding-bottom: 60px;
 	}
-	
+
 	.close-btn-details {
 		right: 20px;
 		top: 20px;
-		
+
 		width: 40px;
 		height: 40px;
-		
+
 		box-shadow: 0px 4px 10px rgba(0,0,0,.06);
 	}
-	
+
 	.icn-close {
 		top: 6px;
-		
+
 		width: 30px;
 		height: 30px;
 	}
@@ -573,7 +577,7 @@ body {
 /******************/
 .container-imprint {
 	margin-top: 100px;
-	
+
 	text-align: center;
 	color: #9C9AA1;
 }
@@ -597,7 +601,7 @@ body {
 	font-family:  'Noto Sans', sans-serif;
 	font-size: 1em;
 	font-weight: 700;
-	
+
 	letter-spacing: .05em;
 	text-align: center;
 	text-transform: uppercase;
@@ -606,12 +610,12 @@ body {
 /* Navigation */
 .navigation li a {
 	color: #1E1E1F;
-	
+
 	text-decoration: none;
 }
 
 .navigation li a:hover {
-	color: #7341DF;
+	color: #192DAE;
 }
 
 
@@ -628,15 +632,15 @@ body {
 }
 
 .header-content h4 {
-	color: rgba(30,30,31,.3);
+	color: rgba(255,255,255,.6);
 }
 
 .arrow-down {
 	font-family:  'Noto Sans', sans-serif;
-	font-size: .7em;
+	font-size: 1em;
 	font-weight: 700;
 	color: #F6F4FD;
-	
+
 	letter-spacing: .15em;
 	text-transform: uppercase;
 }
@@ -647,7 +651,7 @@ body {
 	font-size: .7em;
 	font-weight: 700;
 	color: #F6F4FD;
-	
+
 	letter-spacing: .15em;
 	text-transform: uppercase;
 }
@@ -663,7 +667,7 @@ body {
 	font-size: 1.5em;
 	font-weight: 400;
 	color: #1E1E1F;
-	
+
 	text-align: center;
 	line-height: 2.2em;
 }
@@ -671,8 +675,8 @@ body {
 .about-me p a {
 	font-family: 'Noto Sans', sans-serif;
 	font-weight:  700;
-	color: #7341DF;
-	
+	color: #192DAE;
+
 	text-decoration: none;
 }
 
@@ -681,7 +685,7 @@ body {
 	font-size: .8em;
 	font-weight: 700;
 	color: #9C9AA1;
-	
+
 	text-decoration: none;
 	text-transform: uppercase;
 	letter-spacing: .05em;
@@ -692,7 +696,7 @@ body {
 	font-size: 3em;
 	font-weight: 700;
 	color: #1E1E1F;
-	
+
 	text-transform: uppercase;
 }
 
@@ -715,7 +719,7 @@ body {
 }
 
 .project-detail a:hover {
-	color: #7341DF;
+	color: #192DAE;
 }
 
 
@@ -727,17 +731,17 @@ body {
 	.header-content h4 {
 		font-size: .9em;
 	}
-	
+
 	/* About Me */
 	.about-me p {
 		text-align: left;
 	}
-	
+
 	/* Footer */
 	.footer div {
 		text-align: left;
 	}
-	
+
 	/* Detail Pages */
 	.description p {
 		text-align: left;
@@ -750,12 +754,12 @@ body {
 	.header-content h1 {
 		font-size: 4em;
 	}
-	
+
 	.header-content h4 {
 		top: 40px;
 		font-size: 1.1em;
 	}
-	
+
 	/* Detail Page */
 	.description h1 {
 		font-size: 2em;
