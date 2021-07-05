@@ -23,7 +23,7 @@ var descrIcons = 'Sometimes I just want to have fun, so I create things that do 
 var descrFoundd = 'The movie recommendation service Foundd suffered from low user retention rates. So I came in to analyze the cause and conceptualize potential solutions. I digged through the data, interviewed heavy as well as reluctant users of the service and based on my findings then created UI-designs for a potential next version.';
 
 var Projects = [
-	new Project('Dashboard Death', 'dashboarddeath', ['UI-Design', 'Development'], 'DashboardDeath-Website.png', descrDashboardDeath, '<a href="https://www.dashboarddeath.aaalex.design>Check it out</a>'),
+	new Project('Dashboard Death', 'dashboarddeath', ['UI-Design', 'Development'], 'DashboardDeath-Website.png', descrDashboardDeath, '<a href="https://www.dashboarddeath.aaalex.design>Check it out</a>', []),
 	new Project('Dashboard Earth', 'dashboard', ['Concept', 'UI-Design'], 'img-project.png', descrDashboard, '[ Fun project only ]', ['<img src="img/img-project.png" alt="Dashboard Earth Mockup">']),
 	new Project('Interface Renderings', 'renderings', ['Visual Design'], 'render-01.png', descrRenderings, '[ Fun project only ]', ['<img src="img/render-01.png" alt="Render 01">', '<img src="img/render-02.png" alt="Render 02">', '<img src="img/render-03.png" alt="Render 03">', '<img src="img/render-04.png" alt="Render 04">']),
 	new Project('COUP', 'coup', ['Prototyping', 'Testing'], 'coup-preview.png', descrCoup, '<a href="https://www.joincoup.com">joincoup.com</a>', ['<img src="img/coup-stopover-flow.png" alt="Coup Stopover Flow">']),
