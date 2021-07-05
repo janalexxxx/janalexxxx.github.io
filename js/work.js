@@ -13,6 +13,7 @@ var Project = function(title, idName, categories, previewIMG, description, link,
 	this.allIMG = allIMG
 };
 
+var descrDashboardDeath = 'Dashboard Death is a visualization of unnatural causes of death all around the world. Its goal is to offer an unbiased look at the current status of humanity all around the world. It uses the latest data from GHDx (http://ghdx.healthdata.org).';
 var descrDashboard = 'I asked myself what can we potentially do to raise global awareness and spread the adaptation of a global perspective among people. What I came up with as an answer to this question is the concept for Dashboard Earth. An online aggregation and visualization of global data to objectively monitor progress of the human species and the influencing factors regarding it. Its goal is to provide people with a global perspective to start solving today&#39;s global problems in a sustainable manner.';
 var descrRenderings = 'Since the fundamental building blocks of digital interfaces are based on established physical interaction patterns, I wanted to explore the most iconic physical product interfaces in more depth. The exploration resulted in short series of renderings.';
 var descrCoup = 'When we launched the e-scooter-sharing service COUP at DV in summer 2016, we wanted to make sure to further improve the user experience for a maximum of customer satisfaction and conversion directlty after launch. For each iteration we built a Flinto or Framer protoype and tested it with actual users of our service in their homes. ';
@@ -22,6 +23,7 @@ var descrIcons = 'Sometimes I just want to have fun, so I create things that do 
 var descrFoundd = 'The movie recommendation service Foundd suffered from low user retention rates. So I came in to analyze the cause and conceptualize potential solutions. I digged through the data, interviewed heavy as well as reluctant users of the service and based on my findings then created UI-designs for a potential next version.';
 
 var Projects = [
+	new Project('Dashboard Death', 'dashboarddeath', ['UI-Design', 'Development'], 'DashboardDeath-Website.png', descrDashboardDeath, '<a href="https://www.dashboard-death.aaalex.design>Check it out</a>'),
 	new Project('Dashboard Earth', 'dashboard', ['Concept', 'UI-Design'], 'img-project.png', descrDashboard, '[ Fun project only ]', ['<img src="img/img-project.png" alt="Dashboard Earth Mockup">']),
 	new Project('Interface Renderings', 'renderings', ['Visual Design'], 'render-01.png', descrRenderings, '[ Fun project only ]', ['<img src="img/render-01.png" alt="Render 01">', '<img src="img/render-02.png" alt="Render 02">', '<img src="img/render-03.png" alt="Render 03">', '<img src="img/render-04.png" alt="Render 04">']),
 	new Project('COUP', 'coup', ['Prototyping', 'Testing'], 'coup-preview.png', descrCoup, '<a href="https://www.joincoup.com">joincoup.com</a>', ['<img src="img/coup-stopover-flow.png" alt="Coup Stopover Flow">']),
